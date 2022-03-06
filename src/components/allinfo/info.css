@@ -1,0 +1,47 @@
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.infoitem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 10px 34px -4px whitesmoke; 
+    box-shadow: 4px 10px 34px -4px whitesmoke;
+}
+
+.infotitle{
+    font-size: 20px;
+}
+.moneycontainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.infomoney{
+    font-size: 30px;
+    font-weight: bold;
+}
+.infomoneyrate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.icon{
+    font-size: 14px;
+    margin-left: 5px;
+    color:green;
+}
+
+.icon.negative{
+    color: red;
+}
+.infosub{
+    font-size: 15px;
+    color: grey;
+}

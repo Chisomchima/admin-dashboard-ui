@@ -1,0 +1,36 @@
+.userList{
+    width: calc(100vw - 200px);
+    height: 600px;
+    flex: 4;
+    overflow: hidden;
+    margin-left: 200px;
+}
+.userlistuser{
+    display: flex;
+    align-items: center;
+}
+
+.userlistuserimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.usereditbutton{
+    padding: 7px 15px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.usereditbutton:hover{
+    background-color: gold;
+}
+.userdeletebutton{
+   color: red;
+   cursor: pointer;
+   font-size: 22px;
+}

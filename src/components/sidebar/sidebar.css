@@ -1,0 +1,50 @@
+.sidebar{
+    flex: 1;
+    background-color: whitesmoke ;
+    height: calc(200vh - 80px);
+    width: 200px;
+    position: fixed;
+    top:80px;
+    left: 0;
+   
+}
+
+.sidebarwrapper{
+    padding: 20px;
+    color:rgb(78, 75, 75);
+
+}
+
+.menu{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.title{
+    font-size: 13px;
+    color: rgb(192, 186, 186);
+}
+.list{
+    list-style: none;
+    padding: 5px;
+}
+.listitem{
+    width: 98px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+   margin-left: 25px;
+}
+.listitem:hover{
+    background-color: black;
+    color: gold;
+
+}
+
+.icons{
+    position: absolute;
+    left: -25px;
+    margin-right: 5px;
+    font-size: 20px !important;
+}

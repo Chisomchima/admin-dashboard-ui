@@ -1,0 +1,64 @@
+.smallwidget{
+    flex: 1;
+    -webkit-box-shadow: 4px 10px 34px -4px rgb(241, 231, 231); 
+    box-shadow: 4px 10px 34px -4px rgb(243, 230, 230);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.smallwidgettitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.smalllist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.smalllistitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+}
+.smalluser{
+    display: flex;
+    flex-direction: column;
+}
+
+.smallusername{
+    font-weight: 600;
+}
+
+.smalltitle{
+    
+    font-weight: 200;
+}
+.smallbutton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.smallbutton:hover{
+    background-color: gold;
+}
+
+.smallicon{
+    margin-right: 5px ;
+    font-size: 16px;
+}

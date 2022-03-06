@@ -1,0 +1,12 @@
+.home{
+    width: calc(100vw - 200px);
+    flex: 4;
+    margin-top: 15px;
+    margin-left: 200px; 
+    overflow: hidden;   
+}
+
+.widgets{
+    display: flex;
+    margin: 20px;
+}
